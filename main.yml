@@ -1,5 +1,5 @@
 - name: expense app set up
   hosts: all
-  become: yes
+  becomes: yes
   roles:
     - "{{ role_name }}"
