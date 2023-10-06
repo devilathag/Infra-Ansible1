@@ -1,4 +1,4 @@
-- name: expense app set up
+- name: ansible set up for project
   hosts: all
   become: yes
   roles:
