@@ -6,7 +6,6 @@
   register: npm
   ignore_errors: yes
 
-
 #- name: reas npm
  # ansible.builtin.debug:
   #  msg: "{{npm}}"
