@@ -1,0 +1,10 @@
+groups:
+ - name: infra_alerts
+   rules:
+   - alert: serverDownAlert
+     expr: up == 0
+     for: 1m
+     labels:
+       severity: critical
+     annotations:
+       summary: server Down alert
